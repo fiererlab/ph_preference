@@ -23,7 +23,7 @@ Most of the files from the GTDB database are here: `/data/mhoffert/genomes/GTDB/
 
 # Process
 ## Calculating the optimal pH for a strain
-The pH where an ASV is most abundant could be calculated by fitting a smooth spline to the data and picking the maximum value. I've put a notebook demonstrating this [here](notebooks/Panama_ML_analysis.ipynb):
+The pH where an ASV is most abundant could be calculated by fitting a smooth spline to the data and picking the maximum value. I've put a notebook demonstrating this [here](notebooks/Panama_ML_analysis.ipynb). **Note** that the paths aren't right, they need to be changed to the paths above for the code to work on microbe.
 
 ## Matching ASVs to GTDB
 If you haven't (in a conda environment!) install vsearch:
