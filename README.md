@@ -35,7 +35,7 @@ First, I made the 16S sequences for GTDB release 202 into a Usearch-formatted da
 ```vsearch --makeudb_usearch bac120_blah.fna -o bac120_blah.udb```
 Then aligned the ASVs to the database with vsearch:
  ```
- vsearch --usearch_global [asvs_file] --db [udb] --id 0.95 --strand both --notrunclabels --outfmt 6 --output blah.txt --maxhits 1 --maxrejects 100 --threads 16
+ ~/lab-data/datasets/Oliverio_2020a/processed/03_tabletax/repset.fasta --db ~/genomes/GTDB/ssu/bac120_ssu_reps_r202.udb --strand both --id 0.95 --notrunclabels --blast6out Oliverio_2020a_to_GTDB_bac120_r202.tsv --maxaccepts 1 --maxrejects 100 --threads 30 --iddef 0
  ```
  And parse the file with the library of your choice. The file is in Blast format 6. The second column with ids like `RS_GCF_002514152.1` is the genomes: this is the subset that need to be annotated as inputs to the ML method
  ## Annotate the genomes with functions
