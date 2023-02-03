@@ -1,4 +1,4 @@
-# optimum_ph
+# ph_preference
 A project to develop a method for predicting the optimal growth pH of microorganisms from 'omics data.
 
 # outline
