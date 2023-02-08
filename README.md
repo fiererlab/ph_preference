@@ -2,7 +2,7 @@
 A project to develop a method for predicting the optimal growth pH of microorganisms from 'omics data.
 
 # Repo layout
-- R folder contains the code for the bootstrapping process used to calculate the optimal pH for a strain using biogeographical information, and for obtaining statistical associations between genes and pH preference.
+- R folder contains the code for the bootstrapping process used to calculate the optimal pH for a strain using biogeographical information (pH_preference_bootstrapping_Panama_example.R).
 - Python folder contains the machine learning (ML) code for prediction of pH preferences using genomic information.
 
 # Outline
