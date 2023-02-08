@@ -14,9 +14,9 @@ A project to develop a method for predicting the optimal growth pH of microorgan
 6. Build a ML model that uses the presence/absence of genes to predict pH preference 
 
 # Example dataset
-/data/ramonedaj/Panama/mapfile_panama.txt
-/data/ramonedaj/Panama/otu_table_panama.txt
-/data/ramonedaj/Panama/refseq.txt
+./data/ramonedaj/Panama/mapfile_panama.txt
+./data/ramonedaj/Panama/otu_table_panama.txt
+./data/ramonedaj/Panama/refseq.txt
 
 # Genome database
 /data/ramonedaj/pH_optima/bac120_metadata_r207.tsv
